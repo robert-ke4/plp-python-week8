@@ -1,0 +1,26 @@
+PROJECT BLUEPRINT: Personal Mini-Toolkit
+
+Overview:
+A menu-driven Python application that offers three distinct utility tools for daily tasks, allowing the user to interact repeatedly until choosing to quit.
+
+Tool 1: Quick To-Do List
+- Description: Allows users to view their active task list, add new tasks dynamically, or clear completed items.
+- Concepts Used: While loop, list manipulation (.append()), conditional statements, f-strings.
+
+Tool 2: Tip Calculator
+- Description: Calculates the tip amount and total bill split evenly across a given number of people based on a user-defined tip percentage.
+- Concepts Used: Input parsing, float arithmetic, conditionals (validating positive values), f-strings.
+
+Tool 3: Password Strength Checker
+- Description: Evaluates a user-submitted password against length, digit, and uppercase letter criteria to rate its security.
+- Concepts Used: For loops, string methods (.isdigit(), .isupper()), conditional logic, boolean flags.
+
+Menu Layout Design:
+======================================
+     WELCOME TO YOUR PERSONAL MINI-TOOLKIT
+======================================
+1. Quick To-Do List
+2. Tip Calculator
+3. Password Strength Checker
+4. Quit Program
+======================================
